@@ -24,7 +24,7 @@ jobs:
       - name: Install Newman and Html-extra globally
         run: |
             npm install -g newman
-            npm install -g newma-reporter-htmlextra
+            npm install -g newman-reporter-htmlextra
             
       - name: Run the newman collection with newman
         run: |
